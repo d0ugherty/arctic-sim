@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet build:*)",
+      "Bash(dotnet:*)",
+      "Bash(/usr/bin/dotnet --version)",
+      "Read(//usr/bin/**)",
+      "Read(//usr/local/bin/**)",
+      "Read(//home/thom/.dotnet/**)"
+    ]
+  }
+}
